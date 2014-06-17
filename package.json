@@ -1,0 +1,20 @@
+{
+  "name": "duffel-requests",
+  "version": "0.0.1",
+  "author": "Michael Robinson <mike@pagesofinterest.net>",
+  "description": "Basic request logging & inspection",
+  "contributors": [
+    {
+    "name": "Michael Robinson",
+    "email": "mike@pagesofinterest.net"
+  }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrownPaperBag/duffel-requests"
+  },
+  "dependencies": {
+    "mongoose-times": "",
+    "controller-loader": ""
+  }
+}
