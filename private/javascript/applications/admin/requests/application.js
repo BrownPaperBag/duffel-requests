@@ -1,13 +1,13 @@
 (function() {
   'use strict';
 
-  angular.module('requests-admin', [
+  angular.module('admin-requests', [
     'user',
-    'requests-admin.controllers',
+    'admin-requests.controllers',
     'ngTable', 'cgBusy'
   ]);
 
-  angular.module('requests-admin').value('cgBusyDefaults',{
+  angular.module('admin-requests').value('cgBusyDefaults',{
       message: 'Loading requests',
       templateUrl: '/bower/angular-busy/angular-busy.html',
       minDuration: 700
